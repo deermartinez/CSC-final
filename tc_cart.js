@@ -12,3 +12,18 @@
 	
 */
 
+var orderTotal = [0];
+
+var cartHTML = 
+<table>
+   <tr>
+      <th> Item </th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Qty</th>
+      <th>Total</th>
+   </tr>
+   <tr>
+      <td> <img src = 'tc_item.png' alt='item' > </img> </td>
+   </tr>
+</table>
