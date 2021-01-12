@@ -29,3 +29,16 @@ var itemDescription = [
    "Protective Card Sheets, Item 10041"
 ];
 
+var itemPrice = [
+   149.93,
+   89.98,
+   334.93,
+   22.67,
+];
+
+var itemQuan = [
+   1,
+   1,
+   1,
+   4,
+];
