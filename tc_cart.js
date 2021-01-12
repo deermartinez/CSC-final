@@ -5,7 +5,7 @@
    Tutorial 10
    Case Problem 1
 
-   Author: 
+   Author: Destynee Martinez
    Date:   
    
    Filename: tc_cart.js
