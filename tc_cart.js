@@ -14,8 +14,8 @@
 
 var orderTotal = [0];
 
-var cartHTML = 
-<table>
+var cartHTML = (
+   <table>
    <tr>
       <th> Item </th>
       <th>Description</th>
@@ -32,6 +32,8 @@ var cartHTML =
 
 
 </table>
+)
+
 
 // make a for loop here, going through the entries int he item array,
 // each time it loops, execute the following commands:
@@ -47,5 +49,6 @@ for (i = 0; i < item.length; i++){
       <td>$cost</td>
    </tr>
 
+itemCost + orderTotal
 
 } 
