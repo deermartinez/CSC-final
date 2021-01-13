@@ -14,25 +14,18 @@
 
 var orderTotal = [0];
 
-var cartHTML = (
-   <table>
+var cartHTML = "<table>
    <tr>
       <th> Item </th>
       <th>Description</th>
       <th>Price</th>
       <th>Qty</th>
       <th>Total</th>
-   </tr>
-
-
-
-
-
-
-
+   </tr>";
+   
 
 </table>
-)
+
 
 
 // make a for loop here, going through the entries int he item array,
@@ -45,10 +38,17 @@ for (i = 0; i < item.length; i++){
       <td>description</td>
       <td>$price</td>
       <td>quantity</td>
-      var itemCost = (price * quantity);
+      var itemCost = itemPrice * itemQuan;
       <td>$cost</td>
    </tr>
 
 itemCost + orderTotal
 
 } 
+
+//add to cartHTML
+<tr>
+   <td colspan = '4'>Subtotal</td>
+   <td>$Total</td>
+
+</tr>
