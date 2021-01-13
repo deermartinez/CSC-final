@@ -17,10 +17,10 @@
    
 */
 
-var item = ["10582", 
-"23015", 
-"41807", 
-"10041"];
+var item = [10582, 
+23015, 
+41807, 
+10041];
 
 var itemDescription = [
    "1975 Green Bay Packers Football (signed), Item 10582",

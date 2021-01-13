@@ -14,8 +14,8 @@
 
 var orderTotal = [0];
 
-var cartHTML = "<table>
-   <tr>
+var cartHTML = "<table>"+
+   "<tr>
       <th> Item </th>
       <th>Description</th>
       <th>Price</th>
@@ -24,7 +24,7 @@ var cartHTML = "<table>
    </tr>";
    
 
-</table>
+
 
 
 
@@ -36,10 +36,10 @@ for (i = 0; i < item.length; i++){
    <tr>
       <td><img src='tc_item.png' alt='item' /></td>
       <td>description</td>
-      <td>$price</td>
+      <td>$ + itemPrice</td>
       <td>quantity</td>
       var itemCost = itemPrice * itemQuan;
-      <td>$cost</td>
+      <td>$ + itemCost</td>
    </tr>
 
 itemCost + orderTotal
@@ -49,6 +49,9 @@ itemCost + orderTotal
 //add to cartHTML
 <tr>
    <td colspan = '4'>Subtotal</td>
-   <td>$Total</td>
-
+   <td> $ + orderTotal</td>
 </tr>
+</table>
+
+
+document.getElementById("cart").innerHTML = cartHTML;
