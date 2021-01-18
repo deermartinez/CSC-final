@@ -36,7 +36,7 @@ var itemPrice = [
    22.67,
 ];
 
-var itemQuan = [
+var itemQty = [
    1,
    1,
    1,
